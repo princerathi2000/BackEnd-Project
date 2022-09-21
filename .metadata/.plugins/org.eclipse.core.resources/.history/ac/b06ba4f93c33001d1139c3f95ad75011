@@ -1,0 +1,17 @@
+package com.simplilearn.hibernate.client;
+
+import com.simplilearn.hibernate.dto.Customer;
+import com.simplilearn.hibernate.service.CustomerService;
+import com.simplilearn.hibernate.service.CustomerServiceImpl;
+
+public class Client {
+	 public static void main(String args[])
+	 {
+		CustomerService service =new CustomerServiceImpl();
+//		Customer customer=new Customer("Ayush","Udaipur");
+//		int custId=service.addCustomer(customer);
+//		service.updateCustomer(8,"kolhapur");
+//		System.out.println("CustID : "+custId);
+		service.deleteCustomer(9);
+	 }
+}

@@ -1,0 +1,13 @@
+package com.simplilarn.learneracademy.dao;
+
+import java.util.Set;
+
+import com.learnersacademy.dto.Teacher;
+
+public interface TeacherDao {
+	public Integer addTeacher(Teacher Teacher);
+    public void updateTeacher(int TeacherId,String address);
+    public void deleteTeacher(int TeacherId);
+    public Teacher searchTeacher(int TeacherId);
+    public Set<Teacher> getAllTeachers();
+}

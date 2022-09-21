@@ -1,0 +1,13 @@
+package com.learnersacademy.Client;
+
+import com.learnersacademy.service.ClassesService;
+import com.learnersacademy.service.ClassesServiceImpl;
+
+public class Client {
+
+	public static void main(String agrs[]) {
+		ClassesService classservice=new ClassesServiceImpl();
+		int resultclass=classservice.addClasses("BCA1");
+		System.out.println("Result : "+resultclass);
+	}
+}

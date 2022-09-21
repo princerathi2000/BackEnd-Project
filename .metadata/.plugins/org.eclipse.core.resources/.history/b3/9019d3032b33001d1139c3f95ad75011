@@ -1,0 +1,6 @@
+package com.learnersacademy.dto;
+
+public class Classes {
+	private int classId;
+	private String className;
+}

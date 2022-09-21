@@ -1,0 +1,42 @@
+package com.learnersacademy.service;
+
+import java.util.Set;
+
+import com.learnersacademy.dao.TeacherDao;
+import com.learnersacademy.dao.TeacherDaoImpl;
+import com.learnersacademy.dto.Teacher;
+
+public class TeacherServiceImpl implements TeacherService{
+
+	private TeacherDao dao=null;
+	
+	public TeacherServiceImpl() {
+		dao=new TeacherDaoImpl();
+	}
+	
+	public Integer addTeacher(Teacher Teacher) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void updateTeacher(int TeacherId, String address) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteTeacher(int TeacherId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Teacher searchTeacher(int TeacherId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Set<Teacher> getAllTeachers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

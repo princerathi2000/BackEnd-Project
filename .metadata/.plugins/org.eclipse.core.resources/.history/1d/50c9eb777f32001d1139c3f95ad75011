@@ -1,0 +1,5 @@
+package com.simplilearn.hibernate.service;
+
+public class CustomerServiceImpl {
+
+}

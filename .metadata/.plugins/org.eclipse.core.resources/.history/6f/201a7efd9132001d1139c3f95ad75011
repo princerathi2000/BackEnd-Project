@@ -1,0 +1,39 @@
+package com.simplilearn.hibernate.service;
+
+import java.util.Set;
+
+import com.simplilearn.hibernate.dto.Customer;
+
+public class CustomerServiceImpl implements CustomerService{
+
+	@Override
+	public Integer addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateCustomer(int customerId, String address) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Customer searchCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<Customer> getAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

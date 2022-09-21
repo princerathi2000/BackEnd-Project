@@ -1,0 +1,5 @@
+package com.simplilarn.learneracademy.model;
+
+public class Student {
+
+}

@@ -1,0 +1,13 @@
+package com.learnersacademy.service;
+
+import java.util.Set;
+
+import com.learnersacademy.dto.Classes;
+
+public interface ClassesService {
+	public Integer addClasses(Classes Classes);
+    public void updateClasses(int ClassesId,String address);
+    public void deleteClasses(int ClassesId);
+    public Classes searchClasses(int ClassesId);
+    public Set<Classes> getAllClassess();
+}

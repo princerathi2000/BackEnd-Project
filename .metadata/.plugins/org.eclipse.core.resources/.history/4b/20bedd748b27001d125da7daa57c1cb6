@@ -1,0 +1,20 @@
+import java.sql.DriverManager;
+
+import java.sql.Connection;
+
+public class JdbcConnect {
+
+	public static void main(String args[])
+	{
+		try
+		{
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/mytrgdb","root","");
+			System.out.println("Connected To Database");
+		}
+		catch(Exception ex)
+		{
+			
+		}
+	}
+}

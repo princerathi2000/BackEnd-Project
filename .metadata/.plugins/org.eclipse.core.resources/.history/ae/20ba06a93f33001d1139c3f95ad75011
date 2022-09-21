@@ -1,0 +1,43 @@
+package com.learnersacademy.service;
+
+import java.util.Set;
+
+import com.learnersacademy.dto.Subject;
+import com.simplilearn.hibernate.dao.customerDao;
+import com.simplilearn.hibernate.dao.customerDaoImpl;
+import com.simplilearn.hibernate.dto.Customer;
+
+public class SubjectServiceImpl implements SubjectService{
+	
+	private customerDao dao=null;
+	
+	public CustomerServiceImpl() {
+		dao=new customerDaoImpl();
+	}
+	
+	@Override
+	public Integer addSubject(Subject Subject) {
+		return dao.addCustomer(customer);
+	}
+
+	public void updateSubject(int SubjectId, String address) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteSubject(int SubjectId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Subject searchSubject(int SubjectId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Set<Subject> getAllSubjects() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddClasses</servlet-name>
+  	<display-name>AddClasses</display-name>
+  	<description></description>
+  	<servlet-class>com.learnersacademy.Controller.AddClasses</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>sasa</servlet-name>
+  	<display-name>sasa</display-name>
+  	<description></description>
+  	<servlet-class>com.learnersacademy.Controller.sasa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddClasses</servlet-name>
+  	<url-pattern>/AddClasses</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>sasa</servlet-name>
+  	<url-pattern>/sasa</url-pattern>
+  </servlet-mapping>
+</web-app>

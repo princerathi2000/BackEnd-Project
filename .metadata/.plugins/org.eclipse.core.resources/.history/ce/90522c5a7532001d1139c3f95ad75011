@@ -1,0 +1,5 @@
+package simplilern.hibernate.annotation.client;
+
+public class Client {
+
+}

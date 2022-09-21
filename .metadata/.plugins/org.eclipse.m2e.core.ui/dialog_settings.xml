@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\dell\eclipse-workspace-new\Learners_Academy\pom.xml"/>
+			<item value="C:\Users\dell\Downloads\SportyShoe-main"/>
+			<item value="C:\Users\dell\Downloads\Administrative-portal-for-Learner-Academy-main"/>
+			<item value="C:\Users\dell\eclipse-workspace-new\HibernateXml\src\main\java\com\simplilearn\hibernateXml\client\Client.java"/>
+			<item value="C:\Users\dell\eclipse-workspace-new\LearnerAcademy\pom.xml"/>
+			<item value="C:\Users\dell\eclipse-workspace-new\LearnersAcademy.zip_expanded\LearnersAcademy\src\main\java\com\rockingsoftwaregroup\LearnersAcademy\LearnersAcademyApplication.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.rk.academy.RKAcademy"/>
+			<item value="com.rockingsoftware.academy.SoftwareAcademy"/>
+			<item value="com.simplilearn.learners_academy"/>
+			<item value="com.simplilearn.learners_academy.Learners_Academy"/>
+			<item value="com.simplilearn.newlearnersacademy.NewLearnersAcademy"/>
+		</list>
+		<list key="groupId">
+			<item value="com.rk.academy"/>
+			<item value="com.rockingsoftware.academy"/>
+			<item value="com.simplilearn.learners_academy"/>
+			<item value="com.simplilearn.newlearnersacademy"/>
+		</list>
+		<list key="artifactId">
+			<item value="RKAcademy"/>
+			<item value="SoftwareAcademy"/>
+			<item value="Learners_Academy"/>
+			<item value="NewLearnersAcademy"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

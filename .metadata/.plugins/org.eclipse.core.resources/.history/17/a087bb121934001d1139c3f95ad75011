@@ -1,0 +1,7 @@
+<html>
+<body>
+<h2>Learners Academy</h2>
+Class Id : <input type="text" name="cid">
+Class Name : <input type="text" name="cname">
+</body>
+</html>

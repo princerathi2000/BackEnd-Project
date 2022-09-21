@@ -1,0 +1,43 @@
+package com.learnersacademy.dao;
+
+import java.util.Set;
+
+import org.hibernate.SessionFactory;
+
+import com.learnersacademy.dto.Classes;
+import com.simplilearn.hibernate.util.SessionFactoryManagerImpl;
+
+public class ClassesDaoImpl implements ClassesDao{
+
+	SessionFactory factory;
+	public ClassesDaoImpl() {
+		factory= new SessionFactoryManagerImpl().getSessionFactory();
+	}
+	
+	public Integer addClasses(String Classes) {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+	public void updateClasses(int ClassesId, String address) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteClasses(int ClassesId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Classes searchClasses(int ClassesId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Set<Classes> getAllClassess() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

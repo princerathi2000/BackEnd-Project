@@ -1,0 +1,47 @@
+package com.simplilearn.hibernate.dao;
+
+import java.util.Set;
+
+import org.hibernate.SessionFactory;
+
+import com.simplilearn.hibernate.dto.Customer;
+import com.simplilearn.hibernate.util.SessionFactoryManagerImpl;
+
+public class customerDaoImpl implements customerDao{
+	private SessionFactory factory;
+	
+	public customerDaoImpl() {
+		factory= new SessionFactoryManagerImpl().getSessionFactory();
+	}
+	
+	@Override
+	public Integer addCustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void updateCustomer(int customerId, String address) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Customer searchCustomer(int customerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<Customer> getAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

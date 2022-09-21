@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		  "-//Hibernate/Hibernate Configuration DTD 5.3//EN"
+		  "http://hibernate.sourceforge.net/hibernate-configuration-5.3.dtd">
+		  
+<hibernate-mapping>
+	<class name="com.simplilearn.hibernateXml.beans.Student" table="studentdata">
+		
+		<id name="rollNo" column="roll_no">
+			<generator class="increment"></generator>
+		</id>
+		<property name="firstName" column="first_name"></property>
+		<property name="lastName" column="last_name"></property>
+		<property name="grade" column="grade"></property>
+	</class>
+</hibernate-mapping> 
+		  

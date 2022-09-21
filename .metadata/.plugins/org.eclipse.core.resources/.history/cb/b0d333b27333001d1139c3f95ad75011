@@ -1,0 +1,66 @@
+package com.learnersacademy.dao;
+
+import java.util.Set;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+
+import com.learnersacademy.dto.Classes;
+import com.learnersacademy.dto.Subject;
+import com.simplilearn.hibernate.util.SessionFactoryManagerImpl;
+
+public class SubjectDaoImpl implements SubjectDao{
+	
+private SessionFactory factory;
+	
+	public SubjectDaoImpl() {
+		factory= new SessionFactoryManagerImpl().getSessionFactory();
+	}
+	
+	@Override
+	public Integer addSubject(Subject Subject) {
+		Session session=factory.openSession();
+		Transaction transaction=session.beginTransaction();
+		Integer customerId=(Integer) session.save(Subject);
+		transaction.commit();
+		session.close();
+		return customerId;
+	}
+
+	public void updateSubject(int SubjectId, String address) {
+		Session session=factory.openSession();
+		Transaction transaction=session.beginTransaction();
+		
+		Subject subject=session.get(Subject.class,SubjectId);
+		if(subject!=null)
+		{
+			subject.setSubjectName("Geography");
+			session.update(subject);
+			System.out.println(classes);
+		}
+		else
+		{
+			System.out.println("No Field found");
+		}
+		transaction.commit();
+		session.close();
+		
+	}
+
+	public void deleteSubject(int SubjectId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Subject searchSubject(int SubjectId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Set<Subject> getAllSubjects() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

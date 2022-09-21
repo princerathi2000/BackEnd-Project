@@ -1,0 +1,26 @@
+package com.learnersacademy.Client;
+
+
+import com.learnersacademy.dto.Classes;
+import com.learnersacademy.dto.Subject;
+import com.learnersacademy.service.ClassesService;
+import com.learnersacademy.service.ClassesServiceImpl;
+import com.learnersacademy.service.SubjectService;
+import com.learnersacademy.service.SubjectServiceImpl;
+
+public class Client {
+
+	public static void main(String agrs[]) {
+//		ClassesService classservice=new ClassesServiceImpl();
+//		Classes classes=new Classes("BCA 1");
+//		int resultclass=classservice.addClasses(classes);
+//		System.out.println("Result : "+resultclass);
+		
+		SubjectService service =new SubjectServiceImpl();
+		Subject subject=new Subject("JAVA");
+		int custId=service.addSubject(subject);
+//		service.updateCustomer(8,"kolhapur");
+		System.out.println("CustID : "+custId);
+//		service.deleteCustomer(9);
+	}
+}

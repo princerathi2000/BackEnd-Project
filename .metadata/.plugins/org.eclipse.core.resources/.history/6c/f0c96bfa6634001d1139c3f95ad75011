@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	 <form>  
+        <div class="container">   
+            <label>Class Id : </label>   
+            <input type="text" placeholder="Enter Username" name="classid" required>  
+            <label>Class Name : </label>   
+            <input type="password" placeholder="Enter Password" name="classname" required>  
+            <button type="submit">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form>    
+</body>
+</html>
+
+
+<jsp:include page="/ServletAddClasses" flush="true"/>

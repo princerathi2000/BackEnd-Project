@@ -1,0 +1,5 @@
+package com.softwareacademy.util;
+
+public interface SessionFactoryManager {
+
+}

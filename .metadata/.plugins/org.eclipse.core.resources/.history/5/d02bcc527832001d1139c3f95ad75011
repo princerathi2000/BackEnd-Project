@@ -1,0 +1,13 @@
+package com.simplilearn.hibernate.dto;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="customer_data")
+public class Customer {
+  public static void main(String args[])
+  {
+	  
+  }
+}

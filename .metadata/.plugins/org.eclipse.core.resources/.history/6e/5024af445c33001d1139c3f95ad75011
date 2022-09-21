@@ -1,0 +1,42 @@
+package com.learnersacademy.service;
+
+import java.util.Set;
+
+import com.learnersacademy.dao.SubjectDao;
+import com.learnersacademy.dao.SubjectDaoImpl;
+import com.learnersacademy.dto.Subject;
+
+public class SubjectServiceImpl implements SubjectService{
+	
+	private SubjectDao dao=null;
+	
+	public SubjectServiceImpl() {
+		dao=new SubjectDaoImpl();
+	}
+	
+	@Override
+	public Integer addSubject(Subject Subject) {
+		return dao.addSubject(Subject);
+	}
+
+	public void updateSubject(int SubjectId, String address) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteSubject(int SubjectId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Subject searchSubject(int SubjectId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Set<Subject> getAllSubjects() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

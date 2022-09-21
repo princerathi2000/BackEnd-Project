@@ -1,0 +1,5 @@
+package com.simplilearn.hibernate.dao;
+
+public interface customerDao {
+
+}
